@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race</title>
+    <style>
+        body {
+            margin: 0; 
+            padding: 0;
+        }
+        div {
+            padding: 0;
+            margin: 0;
+            height: 100vh;  
+            background:  
+            url('automobile.png') no-repeat, 
+            url('auto.png') no-repeat,
+            url('car.png') no-repeat, 
+            url('present.png') no-repeat,
+            url('scooter.png') no-repeat,
+            url('bicycle.png') no-repeat, 
+            url('road.png') repeat;
+            background-size: auto 15%, auto 15%, auto 15%, auto 20%, auto 10%, auto 10%, auto 32%; 
+            background-position: 
+            top 20% left 5%, 
+            top 40% left 5%, 
+            top 57% left 5%,
+            top 73% left 5%,
+            top 93% left 5%,
+            top 28% left -160%,
+            top 0% left 0%;
+            
+            transition: all 10s ease;
+        }
+    
+        div:hover {
+            background-position: 
+            top 20% left 85%, 
+            top 40% left 95%, 
+            top 57% left 75%,
+            top 73% left 45%,
+            top 93% left 20%,
+            top 28% left 280%,
+            top 0% left -1200%;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+</html>
